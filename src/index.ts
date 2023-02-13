@@ -22,7 +22,7 @@ interface ITodoUpdateInfo {
   content?: string;
   isComplete?: string;
   category?: string;
-  tags?: Tag[];
+  tags?: ITag[];
 }
 
 interface ITagUpdateInfo extends ITag {
